@@ -70,5 +70,6 @@ GitHub - @olahasan
 ### Acknowledgments
 
 I would like to thank the **[tarmeez academy](https://www.youtube.com/@tarmeez)** for providing this challenge and to the community for their support.
+I would like to thank the **[aladhan API](https://aladhan.com/prayer-times-api)** for providing this API.
 
 
