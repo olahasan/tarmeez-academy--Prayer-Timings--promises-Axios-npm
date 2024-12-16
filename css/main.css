@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  /* height: 96vh; */
+}
+
+.project {
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 26%;
+  left: 50%;
+}
+
+.container {
+  /* background-image: url(../images/prayertime-responsive.png); */
+  /* background-image: url(../images/mosque-colored.png); */
+  background-image: url(../images/mosque-colored1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  /* background-position-x: left; */
+  background-position-x: -498px;
+  background-position-y: top;
+}
+
+.times {
+  color: white;
+}
+@media (max-width: 460px) {
+  .times {
+    margin: 0px 13%;
+  }
+}
+@media (min-width: 461px) and (max-width: 767px) {
+  .times {
+    margin: 0px 15%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 778px) {
+  .times {
+    margin: 0px 20%;
+  }
+}
+@media (min-width: 779px) and (max-width: 991px) {
+  .times {
+    margin: 0px 25%;
+  }
+}
+
+@media (min-width: 992px) {
+  .times {
+    margin: 0px 30%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .times {
+    margin: 0px 37%;
+  }
+}
+
+.time {
+  display: flex;
+  margin-bottom: 5px;
+  /* background-image: linear-gradient(45deg, #000000bd 70%, yellow); */
+  background-image: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+  padding: 5px;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+.name {
+  flex-grow: 1;
+}
+
+input[type="text"] {
+  background-color: #f5deb3;
+  border: none;
+  color: #21557a;
+  padding: 5px;
+  font-size: 20px;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+.nameOfCity {
+  color: wheat;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.date {
+  color: wheat;
+  margin-bottom: 20px;
+}
+
+.nameOfCity,
+.date {
+  text-align: center;
+}
