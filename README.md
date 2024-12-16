@@ -53,7 +53,8 @@ Otherwise, all links will open in the same tab.
 
 ## what-i-learned
 Through this project:
--I learned how to create project dependent on aladhan.com promises-Axios(npm)-API in js.
+- how to deal with postman 
+- I learned how to create project dependent on aladhan.com promises-Axios(npm)-API in js.
 - get Prayer Times from API using Promise and axios
 - how to collect between html,css and Js file.
 - how to push it on github + gh-pages 
